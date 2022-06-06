@@ -73,7 +73,7 @@ public partial class MainPage : ContentPage
         int first = 0;
         int last = values.Length;
 
-        while(first < last)
+        while(first <= last)
         {
             int mid = (first + last) / 2;
             labels[mid].BackgroundColor = ColorPicker.lookingAt;

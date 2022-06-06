@@ -17,10 +17,13 @@
         </HorizontalStackLayout>
         
         <HorizontalStackLayout HorizontalOptions="Center">
-            <Label Text="Target: " 
-                   FontSize="10"/>
+            <Label Text="Target: "
+                   FontSize="20"/>
             <Entry x:Name="targetEntry"
-                   Placeholder="Enter a value to search for."/>
+                   FontSize="20"
+                   Placeholder="Enter a value to search for."
+                   PlaceholderColor="Grey"/>
+                   
         </HorizontalStackLayout>
         
         <HorizontalStackLayout Spacing="5"
