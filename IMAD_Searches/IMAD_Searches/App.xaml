@@ -5,7 +5,7 @@
              x:Class="IMAD_Searches.App">
     <Application.Resources>
         <Style TargetType="Label">
-            <Setter Property="FontSize" Value="12" />
+            <Setter Property="FontSize" Value="30" />
             <Setter Property="VerticalTextAlignment" Value="Center" />
             <Setter Property="TextColor" Value="White"/>
         </Style>

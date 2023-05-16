@@ -2,7 +2,7 @@
 
 public partial class MainPage : ContentPage
 {
-    int[] values = { 2, 4, 6, 12, 15, 15, 23, 31, 33, 33, 36, 40, 41, 56, 58, 68, 72, 73, 81, 99 };
+    int[] values = { 2, 4, 6, 8, 9, 10, 12, 14, 15, 15, 23, 24, 24, 25, 31, 33, 33, 36, 40, 41, 44, 47, 48, 56, 58, 68, 72, 73, 81, 82, 82, 84, 86, 87, 99 };
     List<Label> labels = new List<Label>();
     int delay = 500;
     int target = 0;
@@ -21,8 +21,8 @@ public partial class MainPage : ContentPage
             Label label = new Label();
             label.Text = values[i].ToString();
             label.BackgroundColor = ColorPicker.notSearched;
-            label.HeightRequest = 18;
-            label.WidthRequest = 18;
+            label.HeightRequest = 60;
+            label.WidthRequest = 38;
             label.HorizontalTextAlignment = TextAlignment.Center;
             labels.Add(label);
         }
